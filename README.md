@@ -1,7 +1,10 @@
-# L'algorithme
+# Algorithme et pseudo code.
 
 * Introduction ←
-* [Les variables](variable.md)
+* [Les variables](variables.md)
+* [Les conditions](conditions.md)
+* [Les boucles](whileAndfor.md)
+* [Les tableaux](array.md)
 
 
 ## L'algo, c'est quoi ?
@@ -20,7 +23,7 @@ On retrouve de l'algorithmie partout, pas uniquement en informatique ou dans les
 
 En résumé, un algorithme est donc un ensemble d'instructions **simples** qui permettent de parvenir à un resultat.
 
-## Le pseudo-code
+## Et le pseudo-code, c'est quoi ?
 On retourne sur wikipédia :
 > En programmation, le pseudo-code, également appelé LDA (pour Langage de Description d'Algorithmes) est une façon de décrire un algorithme en langage presque naturel, sans référence à un langage de programmation en particulier.
 
