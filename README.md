@@ -26,13 +26,13 @@ On retourne sur wikipédia :
 
 Donc on va utiliser le pseudo-code qui à l'avantage de se concentrer uniquement sur la logique sans se soucier de la syntaxe, qui est spécifique à chaque technologie. Cette logique sera applicable à n'importe quel langage informatique. Nous allons utiliser le gratuiciel [Larp](http://larp.marcolavoie.ca/fr/download/download.htm) pour la mettre en oeuvre. 
 
-### Pour ceux qui sont sur windows ...
+### Windows
 Téléchargez simplement [Larp](http://larp.marcolavoie.ca/fr/download/download.htm) et installez le, vous n'avez rien à faire d'autres.
 
-### Pour ceux qui sont sur Linux
+### Linux
 Ceux qui sont sur linux, veuillez d'abord télécharger et installer [Wine](https://www.winehq.org/). Wine un est petit outil qui permet de faire tourner certains programmes windows sur linux. Ensuite vous pourrez installer [Larp](http://larp.marcolavoie.ca/fr/download/download.htm)
 
-### Pour ceux qui sont sur mac osx.
+### Mac OSX
 Pour ceux qui sont sur Mac Osx, il existe un équivalent à wine qui est [Play on mac](https://www.playonmac.com/fr/). Ensuite veuillez télécharger et installer [Larp](http://larp.marcolavoie.ca/fr/download/download.htm).
 
 
