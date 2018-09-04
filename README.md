@@ -1,10 +1,10 @@
 # Algorithme et pseudo code.
 
-* Introduction ←
-* [Les variables](variables.md)
-* [Les conditions](conditions.md)
-* [Les boucles](whileAndfor.md)
-* [Les tableaux](array.md)
+1. Introduction ←
+1. [Les variables](variables.md)
+1. [Les conditions](conditions.md)
+1. [Les boucles](whileAndfor.md)
+1. [Les tableaux](array.md)
 
 
 ## L'algo, c'est quoi ?
@@ -38,6 +38,11 @@ Ceux qui sont sur linux, veuillez d'abord télécharger et installer [Wine](http
 ### Mac OSX
 Pour ceux qui sont sur Mac Osx, il existe un équivalent à wine qui est [Play on mac](https://www.playonmac.com/fr/). Ensuite veuillez télécharger et installer [Larp](http://larp.marcolavoie.ca/fr/download/download.htm).
 
+1. Introduction ←
+1. [Les variables](variables.md)
+1. [Les conditions](conditions.md)
+1. [Les boucles](whileAndfor.md)
+1. [Les tableaux](array.md)
 
 
 
