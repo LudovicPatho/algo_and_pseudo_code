@@ -20,7 +20,7 @@ En résumé, un algorithme est donc un ensemble d'instructions **simples** qui p
 ## Le pseudo-code
 Pour les exercices, on va utiliser le pseudo-code qui à l'avantage de se concentrer uniquement sur la logique sans se soucier de la syntaxe spécifique à certains langages. 
 
-Pour ce faire nous allons utiliser le gratuiciel (Larp)[http://larp.marcolavoie.ca/fr/download/download.htm].
+Pour ce faire nous allons utiliser le gratuiciel [Larp](http://larp.marcolavoie.ca/fr/download/download.htm).
 
 
 
