@@ -5,6 +5,9 @@
 1. [Les conditions](conditions.md)
 1. [Les boucles](whileAndfor.md)
 1. [Les tableaux](array.md)
+1. [Les fonctions](function.md)
+1. [Boss final](FinalBoss.md)
+   
 
 
 ## L'algo, c'est quoi ?
@@ -21,7 +24,7 @@ On retrouve de l'algorithmie partout, pas uniquement en informatique ou dans les
 - Tourner à droite. 
 ````
 
-En résumé, un algorithme est donc un ensemble d'instructions **simples** qui permettent de parvenir à un resultat.
+En résumé, un algorithme est donc un ensemble d'instructions **simples** qui permettent de parvenir à un resultat ou de solutionner un problème.
 
 ## Et le pseudo-code, c'est quoi ?
 On retourne sur wikipédia :
@@ -39,10 +42,10 @@ Ceux qui sont sur linux, veuillez d'abord télécharger et installer [Wine](http
 Pour ceux qui sont sur Mac Osx, il existe un équivalent à wine qui est [Play on mac](https://www.playonmac.com/fr/). Ensuite veuillez télécharger et installer [Larp](http://larp.marcolavoie.ca/fr/download/download.htm).
 
 1. Introduction ←
-1. [Les variables](variables.md)
-1. [Les conditions](conditions.md)
-1. [Les boucles](whileAndfor.md)
-1. [Les tableaux](array.md)
+2. [Les variables](variables.md)
+3. [Les conditions](conditions.md)
+4. [Les boucles](whileAndfor.md)
+5. [Les tableaux](array.md)
 
 
 
