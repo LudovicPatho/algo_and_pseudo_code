@@ -1,7 +1,7 @@
 # Algorithme et pseudo code.
 
 1. Introduction ←
-1. [Les variables](variables.md)
+1. [Les variables](code/variables.md)
 1. [Les conditions](conditions.md)
 1. [Les boucles](whileAndfor.md)
 1. [Les tableaux](array.md)
