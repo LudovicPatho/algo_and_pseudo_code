@@ -4,7 +4,7 @@ Les variables permettent de stocker **temporairement**  une **valeur** dans la m
 
 Il existe plusieurs types de variables, certaines peuvent contenir des nombres entier, d'autres des nombres à virgule, une chaîne de caractère. Il en existe d'autres, mais nous verrons cela plus tard.
 
-#### Affectation des variabales
+### Déclaration et affectation des variabales
 
 ````
 \\ Module principal
