@@ -32,7 +32,7 @@ FIN
 ````
 
 
-### Les opérateurs
+## Les opérateurs
 Les opérateurs permettent de diviser, multiplier, additionner, etc .. 
 
 On  peut par exemple additionner les variables,  mais il faut qu'elles soient du même type.
