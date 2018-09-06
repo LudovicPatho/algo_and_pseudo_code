@@ -23,7 +23,7 @@ DÉBUT
 FIN
 ````
 
-**Attention donc, ici s'agit non pas d'un entier mais d'une chaîne de carctère.** 
+**Attention donc, dans l'exemple suivant, il s'agit non pas d'un entier mais d'une chaîne de caractère.** 
 ````
 \\ Module principal
 DÉBUT
@@ -32,20 +32,10 @@ FIN
 ````
 
 
+### Les opérateurs
+Les opérateurs permettent de diviser, multiplier, additionner, etc .. 
 
-
-
-````
-\\ Module principal
-DÉBUT
-    A = 2 
-    B = "Coucou les pioupiou's"
-FIN
-````
-
-Ici la variable ``A`` contient le chiffre 2 et la variable ``B`` contient la chaîne de caratère *Coucou les pioupiou's*. Notez qu'une chaine de caractère commence toujours par des guiellemets. 
-
-On  peut  additionner les variables pour autant qu'elles soient du même type.
+On  peut par exemple additionner les variables,  mais il faut qu'elles soient du même type.
 ````
 \\ Module principal
 DÉBUT
