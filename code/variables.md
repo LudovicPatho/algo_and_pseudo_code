@@ -1,8 +1,22 @@
 # Les variables 
 
-Les variables permettent de stocker **temporairement**  une **valeur** dans la mémoire de l'ordinateur. On pourra ensuite s'en servir et l'utiliser au moment venu. 
+Les variables permettent de stocker **temporairement**  une **valeur** dans la mémoire de l'ordinateur. On pourra ensuite s'en servir et l'utiliser au moment venu dans un programme. C'est un peu comme si c'était des trirois dans lesquels tu peux ranger quelque chose dont tu te sreviras plus tard.  
 
-Il existe plusieurs types de variables, certaines peuvent contenir des nombres entier, d'autres des nombres à virgule, une chaîne de caractère ou bien d'autres objets, mais nous verrons cela plus tard. 
+Il existe plusieurs types de variables, certaines peuvent contenir des nombres entier, d'autres des nombres à virgule, une chaîne de caractère. Il en existe d'autres, mais nous verrons cela plus tard.
+
+#### Affectation des variabales
+
+````
+\\ Module principal
+DÉBUT
+    A = 2
+FIN
+````
+Ici le nom de la variable est A et sa valeur est 2.
+
+
+
+
 
 ````
 \\ Module principal
