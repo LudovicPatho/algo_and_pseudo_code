@@ -15,7 +15,7 @@ DÉBUT
 FIN
 ````
 
-Le nom de la variable est toujours A mais cette fois elle contient une chaîne de caractère aussi appellé String. LEs chaînes de caractère commencent toujours par des guillemets.
+Le nom de la variable est toujours A mais cette fois elle contient une chaîne de caractère aussi appellé String. Les chaînes de caractère commencent toujours par des guillemets.
 ````
 \\ Module principal
 DÉBUT
@@ -49,29 +49,26 @@ Par contre on ne peut pas additionner une chaîne de caractère et un nombre ent
 ````
 \\ Module principal
 DÉBUT
-    A = "2"
+    A = "Hello"
     B = 4 
-    A + B // retournera une erreur car "2" est considéré comme une chaîne de caractère.
+    A + B // retournera une erreur car le compilateur ne comprends pas ce qu'il doit additionner
 FIN
 ````
  
- De même que : 
+Par contre, on peut additionner deux chaines de caractère
 
 ````
 \\ Module principal
 DÉBUT
-    A = 2 
-    B = "Coucou les pioupious"
-    C = 4 
-    D = "de turing"
+   
+    A = "Coucou les pioupious"
+    B = "de turing"
 
-    A + B  \\ Va générer une erreur
-    A + C  \\ Va retourner 6
-    B + D  \\ Va retourner une chaîne de caratère "Coucou les pioupiousde turing"
+    A + B  \\ Va retourner une chaîne de caratère "Coucou les pioupiousde turing"
 FIN
 ````
 
-La dernière addition retournera bien les deux chaînes de caractère collées. Pour mettre un espase entre les deux chaînes de caractère, on peut faire ceci : 
+L'addition retournera bien les deux chaînes de caractère collées. Pour mettre un espase entre les deux chaînes de caractère, on peut faire ceci : 
 
 ````
 \\ Module principal
@@ -114,7 +111,6 @@ DÉBUT
 FIN
 ````
 
-
 Allez à vous de jouer.
 
 ## Exercices
@@ -125,17 +121,31 @@ Allez à vous de jouer.
 ````
 \\ Module principal
 DÉBUT
-    A = 8
+    A = "8"
     B = "7"
-    A * B
+    ÉCRIRE A + B
 FIN
 ````
 <details>
     <summary>Solution </summary>
-    Une erreur car B est une chaîne de caractère.
+    "87"
 </details>
 
-### 2. Reconstitue la phrase ci dessous.
+### 1b. Et ceci ?
+````
+\\ Module principal
+DÉBUT
+    A = "8"
+    B = "7"
+    ÉCRIRE A + B
+FIN
+````
+<details>
+    <summary>Solution </summary>
+    "87"
+</details>
+
+### 2. Créer un phrase avec les mots ci dessous
 
 ````
 \\ Module principal
@@ -158,7 +168,7 @@ DÉBUT
     C = "coder"
     D = "apprends"
 
-    B + " " + D + " " + A + " " + C
+    ÉCRIRE B + " " + D + " " + A + " " + C
 FIN
 ````
 </details>
