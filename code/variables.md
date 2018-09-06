@@ -106,7 +106,7 @@ FIN
 ``` 
 </details>
 
-### Que retournera ceci ?
+### 2. Que retournera ceci ?
 ````
 \\ Module principal
 DÉBUT
@@ -120,7 +120,7 @@ FIN
     Une erreur car B est une chaîne de caractère.
 </details>
 
-### Reconstitue la phrase ci dessous.
+### 3. Reconstitue la phrase ci dessous.
 
 ````
 \\ Module principal
