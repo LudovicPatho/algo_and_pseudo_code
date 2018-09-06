@@ -5,33 +5,62 @@ Les variables permettent de stocker **temporairement**  une **valeur** dans la m
 Il existe plusieurs types de variables, certaines peuvent contenir des nombres entier, d'autres des nombres à virgule, une chaîne de caractère ou bien d'autres objets, mais nous verrons cela plus tard. 
 
 ````
-A = 2 
-B = "Coucou les pioupiou's"
+\\ Module principal
+DÉBUT
+    A = 2 
+    B = "Coucou les pioupiou's"
+FIN
 ````
 
 Ici la variable ``A`` contient le chiffre 2 et la variable ``B`` contient la chaîne de caratère *Coucou les pioupiou's*. Notez qu'une chaine de caractère commence toujours par des guiellemets. 
 
-On  peut  additionner les variables pour autant qu'elles soient du même type. On ne peut pas additionner une chaîne de caractère et un chiffre entier. Ceci provoquerait une erreur.
+On  peut  additionner les variables pour autant qu'elles soient du même type.
+````
+\\ Module principal
+DÉBUT
+    A = 4
+    B = 6
+    A + B  // retournera 10
+FIN
+````
+Par contre on ne peut pas additionner une chaîne de caractère et un nombre entier. Ceci provoquerait une erreur.
 
 ````
-A = 2 
-B = "Coucou les pioupiou's"
-C = 4 
-D = "de turing"
-
-A + B  \\ Va générer une erreur
-A + C  \\ Va retourner 6
-B + D  \\ Va retourner une chaîne de caratère "Coucou les pioupiou'sde turing"
+\\ Module principal
+DÉBUT
+    A = "2"
+    B = 4 
+    A + B // retournera une erreur car "2" est considéré comme une chaîne de caractère.
+FIN
 ````
-
-La dernière addition retournera bien les deux chaînes de caractère collés. Pour mettre un espase entre les deux variables, on pour faire ceci : 
+ 
+ De même que : 
 
 ````
-B + " " + D \\ Retournera : "Coucou les pioupiou's de turing"
+\\ Module principal
+DÉBUT
+    A = 2 
+    B = "Coucou les pioupiou's"
+    C = 4 
+    D = "de turing"
+
+    A + B  \\ Va générer une erreur
+    A + C  \\ Va retourner 6
+    B + D  \\ Va retourner une chaîne de caratère "Coucou les pioupiou'sde turing"
+FIN
 ````
 
+La dernière addition retournera bien les deux chaînes de caractère collées. Pour mettre un espase entre les deux chaînes de caractère, on peut faire ceci : 
 
+````
+\\ Module principal
+DÉBUT
+    B + " " + D \\ Retournera : "Coucou les pioupiou's de turing"
+FIN
+````
+Notez au passage qu'on appelle cela "concatener".
 
+Allez à vous de jouer.
 
 ## Exercices
 
@@ -75,5 +104,47 @@ DÉBUT
     A = B - A            
 FIN
 ``` 
+</details>
+
+### Que retournera ceci ?
+````
+\\ Module principal
+DÉBUT
+    A = 8
+    B = "7"
+    A * B
+FIN
+````
+<details>
+    <summary>Solution </summary>
+    Une erreur car B est une chaîne de caractère.
+</details>
+
+### Reconstitue la phrase ci dessous.
+
+````
+\\ Module principal
+DÉBUT
+    A = "à"
+    B = "J'"
+    C = "coder"
+    D = "apprends"
+FIN
+````
+
+<details>
+    <summary>Solution</summary>
+
+````
+\\ Module principal
+DÉBUT
+    A = "à"
+    B = "J'"
+    C = "coder"
+    D = "apprends"
+
+    B + " " + D + " " + A + " " + C
+FIN
+````
 </details>
 

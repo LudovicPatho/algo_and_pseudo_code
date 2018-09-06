@@ -54,7 +54,7 @@ DÉBUT
 FIN
 ````
 
-Les mots clés ``DÉBUT`` et ``FIN`` délimitte un bloc dans lequel votre algorithme sera executé. Si vosu mettes une partie de votre algo en dehors de ces mots clés, il ne sera pas executé. Pire vous aurez une erreur. 
+Les mots clés ``DÉBUT`` et ``FIN`` délimitte un bloc dans lequel votre algorithme sera executé. Si vous mettez une partie de votre algo en dehors de ces mots clés, il ne sera pas executé. Pire vous aurez une erreur. 
 
 
 1. Introduction ←
