@@ -95,7 +95,7 @@ FIN
 ````
 Appuyer sur ``F7`` ou sur le petit bouton ``Exécuter`` (petit bouton play) dans LARP. Vous devriez voir quelque chose comme ceci : 
 
-![console](./CaptureConsole.png)
+![console](./CaptureConsole.PNG)
 
 ````
 \\ Module principal
