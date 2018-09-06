@@ -2,7 +2,7 @@
 
 Les variables permettent de stocker **temporairement**  une **valeur** dans la mémoire de l'ordinateur. On pourra ensuite s'en servir et l'utiliser au moment venu dans un programme. On pourrait comparer cela à une petite boite dans laquelle on pourrait stocker une information. 
 
-Il existe plusieurs types de variables, certaines peuvent contenir des nombres entier, d'autres des nombres à virgule ou une chaîne de caractère. Il en existe d'autres, mais nous verrons cela plus tard.
+Il existe plusieurs types de variables, certaines peuvent contenir des nombres entier, d'autres des nombres à virgule ou une chaîne de caractère. Un autre type qui est très pratique, ce sont les booléens. Une variable booléene ne peut contenir que 2 valeurs, soit ``False`` soit ``True``.  Il en existe d'autres types, mais nous verrons cela plus tard.
 
 ![Les variables](./boxes.png)
 
@@ -97,7 +97,7 @@ Appuyez sur ``F7`` ou sur le petit bouton ``Exécuter`` (petit bouton play) dans
 
 ![console](./CaptureConsole.PNG)
 
-Avec la fonction ``LIRE``, on a la possibilité de capturer ce que l'utilisateur encode dans la console. 
+Avec la fonction ``LIRE``, on a la possibilité de capturer ce que l'utilisateur encode dans la console.   
 Essaiez ceci : 
 
 ````
