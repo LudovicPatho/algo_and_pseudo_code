@@ -64,7 +64,51 @@ Allez à vous de jouer.
 
 ## Exercices
 
-### 1 . Inverse la valeurs de deux variables.
+
+
+### 1. Que retournera ceci ?
+````
+\\ Module principal
+DÉBUT
+    A = 8
+    B = "7"
+    A * B
+FIN
+````
+<details>
+    <summary>Solution </summary>
+    Une erreur car B est une chaîne de caractère.
+</details>
+
+### 2. Reconstitue la phrase ci dessous.
+
+````
+\\ Module principal
+DÉBUT
+    A = "à"
+    B = "J'"
+    C = "coder"
+    D = "apprends"
+FIN
+````
+
+<details>
+    <summary>Solution</summary>
+
+````
+\\ Module principal
+DÉBUT
+    A = "à"
+    B = "J'"
+    C = "coder"
+    D = "apprends"
+
+    B + " " + D + " " + A + " " + C
+FIN
+````
+</details>
+
+### 3 . Inverse la valeurs de deux variables.
 ```
 \\ Module principal
 DÉBUT
@@ -106,45 +150,5 @@ FIN
 ``` 
 </details>
 
-### 2. Que retournera ceci ?
-````
-\\ Module principal
-DÉBUT
-    A = 8
-    B = "7"
-    A * B
-FIN
-````
-<details>
-    <summary>Solution </summary>
-    Une erreur car B est une chaîne de caractère.
-</details>
 
-### 3. Reconstitue la phrase ci dessous.
-
-````
-\\ Module principal
-DÉBUT
-    A = "à"
-    B = "J'"
-    C = "coder"
-    D = "apprends"
-FIN
-````
-
-<details>
-    <summary>Solution</summary>
-
-````
-\\ Module principal
-DÉBUT
-    A = "à"
-    B = "J'"
-    C = "coder"
-    D = "apprends"
-
-    B + " " + D + " " + A + " " + C
-FIN
-````
-</details>
 
