@@ -60,6 +60,25 @@ FIN
 ````
 Notez au passage qu'on appelle cela "concatener".
 
+
+## Lire et écrire les variables
+Jusqu'à présent, on affiche pas les variables dans la console. On va utiliser une fonction qui nous pertmettra d'écrire les variables mais aussi de lire ce que l'utilisateur tape sur son clavier. 
+
+````
+\\ Module principal
+DÉBUT
+    A = "Quel est ton prénom ?"
+
+    ÉCRIRE A
+    LIRE RESPONS
+
+    B = "Bonjour "
+    ÉCRIRE B + RESPONS   
+
+FIN
+````
+
+
 Allez à vous de jouer.
 
 ## Exercices
