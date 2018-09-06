@@ -61,13 +61,13 @@ FIN
 \\ Module principal
 DÉBUT
     A = 2 
-    B = "Coucou les pioupiou's"
+    B = "Coucou les pioupious"
     C = 4 
     D = "de turing"
 
     A + B  \\ Va générer une erreur
     A + C  \\ Va retourner 6
-    B + D  \\ Va retourner une chaîne de caratère "Coucou les pioupiou'sde turing"
+    B + D  \\ Va retourner une chaîne de caratère "Coucou les pioupiousde turing"
 FIN
 ````
 
@@ -76,7 +76,7 @@ La dernière addition retournera bien les deux chaînes de caractère collées. 
 ````
 \\ Module principal
 DÉBUT
-    B + " " + D \\ Retournera : "Coucou les pioupiou's de turing"
+    B + " " + D \\ Retournera : "Coucou les pioupious de turing"
 FIN
 ````
 Notez au passage qu'on appelle cela "concatener".
@@ -84,6 +84,18 @@ Notez au passage qu'on appelle cela "concatener".
 
 ## Lire et écrire les variables
 Jusqu'à présent, on affiche pas les variables dans la console. On va utiliser une fonction qui nous pertmettra d'écrire les variables mais aussi de lire ce que l'utilisateur tape sur son clavier. 
+
+Voici comment on écrit une phrase dans la console.
+````
+\\ Module principal
+DÉBUT
+    B = "Coucou les pioupious"
+    ÉCRIRE B
+FIN
+````
+Appuyer sur ``F7`` ou sur le petit bouton ``Exécuter`` (petit bouton play) dans LARP. Vous devriez voir quelque chose comme ceci : 
+
+![console](./CaptureConsole.png)
 
 ````
 \\ Module principal
