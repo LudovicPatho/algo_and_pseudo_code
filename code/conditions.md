@@ -15,4 +15,19 @@ DÉBUT
 FIN
 ````
 
-Dans cet exemple, on utilise l'opérateur ``<`` pour dire *Si la variable A est plus petit que la varibale B alors...* 
+Dans cet exemple, on utilise l'opérateur ``<`` pour dire *Si la variable A est plus petit que la varibale B alors...* Notez que l'on finit la condition par FINSI. Donc tout ce qui est écrit à entre ``ALORS`` et ``FINSI`` sera exécuté si la réponse est toujours respectée. 
+
+````
+\\ Module principal
+DÉBUT
+    A = 15
+    B = 9
+    SI A < B ALORS
+        ÉCRIRE "A est plus petit que B"
+        ÉCRIRE "J'écris uniquement si A est plus petit que B"        
+    FINSI
+    ÉCRIRE "J'écris quoi q'il arrive"    
+FIN
+````
+S'il y a une instruction en dehors du "bloc", elle s'executera que la condition soit remplie ou non.
+
