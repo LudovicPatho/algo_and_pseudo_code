@@ -1,5 +1,5 @@
 # Les conditions
-Ça y est, on entre tout doucement dans ce qu'on peut appeller l'algorithme. Les conditions permettent de rajouter un peu de logique à notre programme.
+Ça y est, on entre tout doucement dans ce qu'on peut appeller l'algorithmie. Les conditions permettent de rajouter un peu de logique à notre programme.
 
 Une condition commence toujours par ``SI`` (``if`` en inglish). Ce mot clé est suivi d'une *condition*. C'est cette condition qui déterminera notre logique. 
 
