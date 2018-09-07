@@ -15,7 +15,7 @@ FIN
 
 Dans cet exemple, on utilise l'opérateur ``<`` pour dire *Si la variable A est plus petit que la varibale B alors...* Notez que l'on finit la condition par FINSI. Donc tout ce qui est écrit à entre ``ALORS`` et ``FINSI`` sera exécuté si la condition est respectée. 
 
-Très bien mais dans cet exemple, si A est plus grand que B, il ne se passera rien. On doit rajouter un test avec le mot ``SINON`` (else)
+Très bien mais dans cet exemple, si A est plus grand que B, il ne se passera rien. On doit rajouter une instruction avec le mot ``SINON`` (else)
 
 ````
 \\ Module principal
@@ -29,7 +29,22 @@ DÉBUT
     FINSI        
 FIN
 ````
-Et dans le cas où A est égale à B ? Dans l'état actuel, si A est égale à B on aura la phrase *A est plus grand que B* alors que c'est faux.
+Et dans le cas où A est égale à B ? Dans l'état actuel, si A est égale à B on aura la phrase *A est plus grand que B* alors que c'est faux. On pourrait rajouter un 2e test avec ``SINON SI``
+````
+\\ Module principal
+DÉBUT
+    A = 15
+    B = 15
+    SI A < B ALORS
+        ECRIRE "A est plus petit que B"
+    SINON SI A = B ALORS 
+        ECRIRE "A est égale à B"
+    SINON
+        ECRIRE "A est plus grand que B"
+    FINSI        
+FIN
+````
+
 
 
 ## Les opérateurs de comparaison
@@ -45,18 +60,4 @@ Pour comparer 2 valeurs, nous aurons besoin des *opérateurs de comparaison*.
 | >= | opérateur de supériorité  | A >= B | Vérifie que variable A est supérieur ou égale à la valeur B et retourne true si elle l'est et false si elle ne l'est pas
 | != | opérateur de différence | A != B | Vérifie que la variable A est différente que la variable B
 
-
-````
-\\ Module principal
-DÉBUT
-    A = 15
-    B = 9
-    SI A < B ALORS
-        ÉCRIRE "A est plus petit que B"
-        ÉCRIRE "J'écris uniquement si A est plus petit que B"        
-    FINSI
-    ÉCRIRE "J'écris quoi q'il arrive"    
-FIN
-````
-S'il y a une instruction en dehors du "bloc", elle s'executera que la condition soit remplie ou non.
 
