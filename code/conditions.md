@@ -1,11 +1,11 @@
 # Les conditions
 Ça y est, on entre tout doucement dans ce qu'on peut appeller l'algorithmie. Les conditions permettent de rajouter un peu de logique à notre programme. Elles commencent toujours par ``SI`` (``if`` en inglish) suivi de la condition en question. Si la condition est remplie, on passe alors dans le bloc ``ALORS``
-Si la condition n'est pas remplie on sort du bloc.
+Si la condition n'est pas remplie on ignore le bloc et on passe à la ligne suivante.
 Ex :
 ````
 \\ Module principal
 DÉBUT
-    A = 15
+    A = 5
     B = 9
     SI A < B ALORS
         ÉCRIRE "A est plus petit que B"         
@@ -13,9 +13,28 @@ DÉBUT
 FIN
 ````
 
-Dans cet exemple, on utilise l'opérateur ``<`` pour dire *Si la variable A est plus petit que la varibale B alors...* Notez que l'on finit la condition par FINSI. Donc tout ce qui est écrit à entre ``ALORS`` et ``FINSI`` sera exécuté si la réponse est toujours respectée. 
+Dans cet exemple, on utilise l'opérateur ``<`` pour dire *Si la variable A est plus petit que la varibale B alors...* Notez que l'on finit la condition par FINSI. Donc tout ce qui est écrit à entre ``ALORS`` et ``FINSI`` sera exécuté si la condition est respectée. 
+
+Très bien mais dans cet exemple, si A est plus grand que B, il ne se passera rien. On doit rajouter un test avec le mot ``SINON`` (else)
+
+````
+\\ Module principal
+DÉBUT
+    A = 15
+    B = 9
+    SI A < B ALORS
+        ECRIRE "A est plus petit que B"
+    SINON
+        ECRIRE "A est plus grand que B"
+    FINSI        
+FIN
+````
+Et dans le cas où A est égale à B ? Dans l'état actuel, si A est égale à B on aura la phrase *A est plus grand que B* alors que c'est faux.
+
 
 ## Les opérateurs de comparaison
+
+Pour comparer 2 valeurs, nous aurons besoin des *opérateurs de comparaison*. 
 
 |Opérateur|Nom|Syntaxe|Résultat
 |:-------:|:--|:------|:-------
