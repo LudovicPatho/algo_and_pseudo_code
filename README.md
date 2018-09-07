@@ -2,11 +2,11 @@
 
 1. Introduction ←
 1. [Les variables](code/variables.md)
-1. [Les conditions](conditions.md)
-1. [Les boucles](whileAndfor.md)
-1. [Les tableaux](array.md)
-1. [Les fonctions](function.md)
-1. [Boss final](FinalBoss.md)
+1. [Les conditions](code/conditions.md)
+1. [Les boucles](code/whileAndfor.md)
+1. [Les tableaux](code/array.md)
+1. [Les fonctions](code/function.md)
+
    
 
 
