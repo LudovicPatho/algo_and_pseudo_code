@@ -1,8 +1,9 @@
 # Algorithme et pseudo code.
 
 1. Introduction ←
-   * [L'algo, c'est quoi](##lalgo-cest-quoi-)
-   
+   * [L'algo, c'est quoi](#lalgo-cest-quoi-)
+   * [Et le pseudo code, c'est quoi ?](#et-le-pseudo-code-cest-quoi-)
+   * [Installation](#windows)
 1. [Les variables](code/variables.md)
 1. [Les conditions](code/conditions.md)
 1. [Les boucles](code/whileAndfor.md)
