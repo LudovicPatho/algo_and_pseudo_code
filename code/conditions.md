@@ -90,7 +90,9 @@ DÉBUT
     FINSI         
 FIN	
 ````
-</details>
+</details>   
+  
+  
 
 1. Ecrire l'algorithme décrivant un programme permettant à une hotesse de calculer le prix d'une place en fonction de l'àge du passager. Les enfants de moins de deux ans ne paient pas, ceux qui ont moins de 10 ans paient moitié prix et les personnes de moins de 27 ans et celles de plus de 70 ans ont une réduction de 10%. L'utilisateur doit saisir le prix de base du billet et l'àge de passager. Le programme affiche le résultat.
 
