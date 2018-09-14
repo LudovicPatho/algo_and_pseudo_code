@@ -72,3 +72,33 @@ Pour comparer 2 valeurs, nous aurons besoin des *opérateurs de comparaison*.
 | != | opérateur de différence | A != B | Vérifie que la variable A est différente que la variable B
 
 
+## Exercices : 
+
+5 . Ecrire l'algorithme décrivant un programme permettant à une hotesse de calculer le prix d'une place en fonction de l'àge du passager. Les enfants de moins de deux ans ne paient pas, ceux qui ont moins de 10 ans paient moitié prix et les personnes de moins de 27 ans et celles de plus de 70 ans ont une réduction de 10%. L'utilisateur doit saisir le prix de base du billet et l'àge de passager. Le programme affiche le résultat.
+
+<details>
+   <summary>Solution</summary>
+ ````
+   
+DEBUT
+AFFICHER
+SAISIR prix, age
+Si age<2
+Alors AFFICHER "Vous ne payez pas"
+Sinon
+	Si age<10
+	Alors AFFICHER "Vous devez payer : ",prix/2
+	Sinon
+		Si age<27 OU age>70
+		Alors AFFICHER "Vous devez payer : ",prix-(prix*10)/100
+		Sinon AFFICHER "Vous devez payer : ",prix
+		FinSi
+	Finsi
+Finsi
+FIN
+
+ ````
+</details>
+
+
+
