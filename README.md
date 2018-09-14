@@ -1,6 +1,8 @@
 # Algorithme et pseudo code.
 
 1. Introduction ←
+   * [L'algo, c'est quoi](##lalgo-cest-quoi-)
+   
 1. [Les variables](code/variables.md)
 1. [Les conditions](code/conditions.md)
 1. [Les boucles](code/whileAndfor.md)
@@ -57,11 +59,9 @@ FIN
 Les mots clés ``DÉBUT`` et ``FIN`` délimitte un bloc dans lequel votre algorithme sera executé. Si vous mettez une partie de votre algo en dehors de ces mots clés, il ne sera pas executé. Pire vous aurez une erreur. 
 
 
-1. Introduction ←
-2. [Les variables](variables.md)
-3. [Les conditions](conditions.md)
-4. [Les boucles](whileAndfor.md)
-5. [Les tableaux](array.md)
+Chapitre suivant :
+* [Les variables](variables.md)
+
 
 
 
