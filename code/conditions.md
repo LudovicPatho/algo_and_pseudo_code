@@ -78,6 +78,7 @@ Pour comparer 2 valeurs, nous aurons besoin des *opérateurs de comparaison*.
 
 <details>
    <summary>Solution</summary>
+	
 ````   
 DEBUT
 AFFICHER
