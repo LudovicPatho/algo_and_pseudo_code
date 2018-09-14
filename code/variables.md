@@ -235,8 +235,9 @@ DÉBUT
     ÉCRIRE "Ton prénom est " + PRENOM + " et tu aimes "  + PLAT_FAVORIS
 FIN
 ````
-</details>  
+</details>    
   
+    
     
 **Chapitre suivant**  
 -> [Les conditions](./conditions.md)  
