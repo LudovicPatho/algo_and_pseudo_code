@@ -220,7 +220,7 @@ FIN
 ``` 
 </details>
 
-### 5. Pose 2 questions à l'utilisateur de ton programme. Tu dois lui demander son prénom et son plat favoris. Ensuite écris une phrase avec ces informations et qui ressemble à ceci : "Ton prénom est .... et ton plat favoris est ....
+### 5. Pose 2 questions à l'utilisateur de ton programme. Tu dois lui demander son prénom que tu devras stocker dans une variable ``PRENOM`` et son plat favoris dans la variable ``PLAT_FAVORIS``. Ensuite écris une phrase avec ces informations et qui ressemble à ceci : "Ton prénom est .... et ton plat favoris est ....
 
 <details>
     <summary>Solution</summary>
