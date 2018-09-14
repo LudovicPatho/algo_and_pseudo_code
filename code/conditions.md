@@ -53,7 +53,7 @@ Pour comparer 2 valeurs, nous aurons besoin des *opérateurs de comparaison*.
 
 |Opérateur|Nom|Syntaxe|Résultat
 |:-------:|:--|:------|:-------
-| ==      |opérateur d'égalité| A == B | Compare l'égalité de 2 valeurs et renvoie ``true`` si la condition est remplie et ``false`` si elle ne l'est pas.
+| =      |opérateur d'égalité| A = B | Compare l'égalité de 2 valeurs et renvoie ``true`` si la condition est remplie et ``false`` si elle ne l'est pas.
 | < | 	opérateur d'infériorité stricte | A < B | Vérifie que la  variable A est strictement inférieure à une valeur B et retourne true si elle l'est et false si elle ne l'est pas
 |<= | opérateur d'infériorité | A <= B | Idem que précédent mais la condition sera remplie aussi si A est égale à B
 | > | opérateur de supériorité stricte | A > B | Vérifie qu'une variable est strictement supérieur à une valeur et retourne true si elle l'est et false si elle ne l'est pas
