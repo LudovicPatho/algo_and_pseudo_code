@@ -61,7 +61,7 @@ Les mots clés ``DÉBUT`` et ``FIN`` délimitte un bloc dans lequel votre algori
 
 
 Chapitre suivant :
-* [Les variables](variables.md)
+* [Les variables](code/variables.md)
 
 
 
