@@ -5,7 +5,7 @@
 1. [Les conditions](code/conditions.md)
 1. [Les boucles](code/whileAndfor.md)
 1. [Les tableaux](code/array.md)
-1. [Les fonctions](code/function.md)
+1. [Les fonctions](#windows)
 
    
 
