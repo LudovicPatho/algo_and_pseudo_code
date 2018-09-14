@@ -73,7 +73,7 @@ Pour comparer 2 valeurs, nous aurons besoin des *opérateurs de comparaison*.
 
 
 ## Exercices : 
-1. Ecrire un algorithme qui demande à l'utilisateur d'entrer son âge. Si l'utilisateur à moins de 18 ans, le programme indiquera : *Tu es trop jeune pour faire la formation BeCode* 
+1. Ecrire un algorithme qui demande à l'utilisateur d'entrer son âge. Si l'utilisateur à moins de 18 ans, le programme indiquera : *Tu es trop jeune pour faire la formation BeCode*. Par contre si l'utlisateur à plus de 18  ans, la phrase devra indiquer *Tu peux participer à la formation*.
 
 <details>
 	<summary>Solution</summary>
@@ -92,7 +92,7 @@ FIN
 ````
 </details>
 
-5 . Ecrire l'algorithme décrivant un programme permettant à une hotesse de calculer le prix d'une place en fonction de l'àge du passager. Les enfants de moins de deux ans ne paient pas, ceux qui ont moins de 10 ans paient moitié prix et les personnes de moins de 27 ans et celles de plus de 70 ans ont une réduction de 10%. L'utilisateur doit saisir le prix de base du billet et l'àge de passager. Le programme affiche le résultat.
+1. Ecrire l'algorithme décrivant un programme permettant à une hotesse de calculer le prix d'une place en fonction de l'àge du passager. Les enfants de moins de deux ans ne paient pas, ceux qui ont moins de 10 ans paient moitié prix et les personnes de moins de 27 ans et celles de plus de 70 ans ont une réduction de 10%. L'utilisateur doit saisir le prix de base du billet et l'àge de passager. Le programme affiche le résultat.
 
 <details>
    <summary>Solution</summary>
