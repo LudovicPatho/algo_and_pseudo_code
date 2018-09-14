@@ -3,7 +3,8 @@
 1. [Introduction](../README.md)
 1. [Les variables](code/variables)
 1. Les conditions ← 
-    * 
+    * [SI, SINON , FINSI](#si-sinon-alors-finsi)
+    * [Les opérateurs de comparaison](#les-opérateurs-de-comparaison)
 1. [Les boucles](code/whileAndfor.md)
 1. [Les tableaux](code/array.md)
 1. [Les fonctions](code/function.md)
