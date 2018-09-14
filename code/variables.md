@@ -244,13 +244,5 @@ FIN
 
 
 
-### Index
-1. [Introduction](../README.md) 
-2. Les variables ←
-3. [Les conditions](./conditions.md)
-4. [Les boucles](./whileAndfor.md)
-5. [Les tableaux](./array.md)
-6. [Les fonctions](./function.md)
-
 
 
