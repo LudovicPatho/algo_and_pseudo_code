@@ -1,4 +1,14 @@
 # Les conditions
+
+1. [Introduction](../README.md)
+1. [Les variables](code/variables)
+1. Les conditions ← 
+    * 
+1. [Les boucles](code/whileAndfor.md)
+1. [Les tableaux](code/array.md)
+1. [Les fonctions](code/function.md)
+
+## Si, SINON ALORS, FINSI
 Ça y est, on entre tout doucement dans ce qu'on peut appeller l'algorithmie. Les conditions permettent de rajouter un peu de logique à notre programme. Elles commencent toujours par ``SI`` (``if`` en inglish) suivi de la condition en question. Si la condition est remplie, on passe alors dans le bloc ``ALORS``
 Si la condition n'est pas remplie on ignore le bloc et on passe à la ligne suivante.
 Ex :
