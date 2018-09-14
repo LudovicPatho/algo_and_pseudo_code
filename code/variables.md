@@ -1,8 +1,8 @@
 # Les variables
 
 
-1. Introduction ←
-1. [Les variables](code/variables.md)
+1. [Introduction](../README.md)
+1. Les variables ←
     * [Déclaration et affectation des variables](#déclaration-et-affectation-des-variables)
     * [Les opérateurs](#les-opérateurs)
     * [Lire et écrire les variables](#lire-et-écrire-les-variables)
