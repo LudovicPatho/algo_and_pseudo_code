@@ -1,4 +1,16 @@
-# Les variables 
+# Les variables
+
+
+1. Introduction ←
+1. [Les variables](code/variables.md)
+    * [Déclaration et affectation des variables](#déclaration-et-affectation-des-variables)
+    * [Les opérateurs](#les-opérateurs)
+    * [Lire et écrire les variables](#lire-et-écrire-les-variables)
+1. [Les conditions](code/conditions.md)
+1. [Les boucles](code/whileAndfor.md)
+1. [Les tableaux](code/array.md)
+1. [Les fonctions](code/function.md)
+
 
 Les variables permettent de stocker **temporairement**  une **valeur** dans la mémoire de l'ordinateur. On pourra ensuite s'en servir et l'utiliser au moment venu dans un programme. On peut comparer cela à une petite boite dans laquelle on pourrait stocker une information ou plusieurs informations. 
 
