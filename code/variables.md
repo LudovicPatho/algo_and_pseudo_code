@@ -248,8 +248,8 @@ DÉBUT
 FIN
 ````
 </details>    
-  
-    
+
+&nbsp; 
     
 **Chapitre suivant**  
 -> [Les conditions](./conditions.md)  
