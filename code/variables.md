@@ -1,4 +1,16 @@
-# Les variables 
+# Les variables
+
+
+1. [Introduction](../README.md)
+1. Les variables ←
+    * [Déclaration et affectation des variables](#déclaration-et-affectation-des-variables)
+    * [Les opérateurs](#les-opérateurs)
+    * [Lire et écrire les variables](#lire-et-écrire-les-variables)
+1. [Les conditions](./conditions.md)
+1. [Les boucles](./whileAndfor.md)
+1. [Les tableaux](./array.md)
+1. [Les fonctions](./function.md)
+
 
 Les variables permettent de stocker **temporairement**  une **valeur** dans la mémoire de l'ordinateur. On pourra ensuite s'en servir et l'utiliser au moment venu dans un programme. On peut comparer cela à une petite boite dans laquelle on pourrait stocker une information ou plusieurs informations. 
 
@@ -220,7 +232,7 @@ FIN
 ``` 
 </details>
 
-### 5. Pose 2 questions à l'utilisateur de ton programme. Tu dois lui demander son prénom et son plat favoris. Ensuite écris une phrase avec ces informations et qui ressemble à ceci : "Ton prénom est .... et ton plat favoris est ....
+### 5. Pose 2 questions à l'utilisateur de ton programme. Tu dois lui demander son prénom que tu devras stocker dans une variable ``PRENOM`` et son plat favoris dans la variable ``PLAT_FAVORIS``. Ensuite écris une phrase avec ces informations et qui ressemble à ceci : "Ton prénom est .... et ton plat favoris est ....
 
 <details>
     <summary>Solution</summary>
@@ -235,21 +247,14 @@ DÉBUT
     ÉCRIRE "Ton prénom est " + PRENOM + " et tu aimes "  + PLAT_FAVORIS
 FIN
 ````
-</details>
-
-
+</details>    
+  
+    
+    
 **Chapitre suivant**  
 -> [Les conditions](./conditions.md)  
 
 
-
-### Index
-1. [Introduction](../README.md) 
-2. Les variables ←
-3. [Les conditions](./conditions.md)
-4. [Les boucles](./whileAndfor.md)
-5. [Les tableaux](./array.md)
-6. [Les fonctions](./function.md)
 
 
 

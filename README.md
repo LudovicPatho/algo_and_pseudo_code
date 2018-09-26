@@ -11,11 +11,22 @@
 * Premier pas dans le code.
 
 1. Introduction ←
+<<<<<<< HEAD
 2. [Les variables](code/variables.md)
 3. [Les conditions](code/conditions.md)
 4. [Les boucles](code/whileAndfor.md)
 5. [Les tableaux](code/array.md)
 6. [Les fonctions](code/function.md)
+=======
+   * [L'algo, c'est quoi](#lalgo-cest-quoi-)
+   * [Et le pseudo code, c'est quoi ?](#et-le-pseudo-code-cest-quoi-)
+   * [Installation](#windows)
+1. [Les variables](code/variables.md)
+1. [Les conditions](code/conditions.md)
+1. [Les boucles](code/whileAndfor.md)
+1. [Les tableaux](code/array.md)
+1. [Les fonctions](code/function.md)
+>>>>>>> 905a2fa916fc2d0666ec6b178f2c9c4f9c3b0cc3
 
    
 
@@ -67,11 +78,9 @@ FIN
 Les mots clés ``DÉBUT`` et ``FIN`` délimitte un bloc dans lequel votre algorithme sera executé. Si vous mettez une partie de votre algo en dehors de ces mots clés, il ne sera pas executé. Pire vous aurez une erreur. 
 
 
-1. Introduction ←
-2. [Les variables](variables.md)
-3. [Les conditions](conditions.md)
-4. [Les boucles](whileAndfor.md)
-5. [Les tableaux](array.md)
+Chapitre suivant :
+* [Les variables](code/variables.md)
+
 
 
 
