@@ -1,11 +1,21 @@
-# Algorithme et pseudo code.
+# Algorithme et pseudo code.  
+
+* Repository: becode-animation-css
+* Durée: 1 jour
+* À délivrer sur :
+    * Github
+  
+
+## Objectifs 
+* Comprendre l'algorithmie
+* Premier pas dans le code.
 
 1. Introduction ←
-1. [Les variables](code/variables.md)
-1. [Les conditions](code/conditions.md)
-1. [Les boucles](code/whileAndfor.md)
-1. [Les tableaux](code/array.md)
-1. [Les fonctions](code/function.md)
+2. [Les variables](code/variables.md)
+3. [Les conditions](code/conditions.md)
+4. [Les boucles](code/whileAndfor.md)
+5. [Les tableaux](code/array.md)
+6. [Les fonctions](code/function.md)
 
    
 
