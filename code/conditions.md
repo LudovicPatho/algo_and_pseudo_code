@@ -73,7 +73,7 @@ Pour comparer 2 valeurs, nous aurons besoin des *opérateurs de comparaison*.
 
 
 ## Opérateur Logique 
-On a la possibilité de faire plusieurs cérifictaions dans les conditions. Pour ce faire on a des opérateurs logiques ``ET`` & ``OU``. Imaginons un programme qui vérifie si une personne est élligible pour faire sa rentrée à BeCode. On doit vérifier deux choses, la personne doit être majeur et doit posséder 25 badges.
+On a la possibilité de faire plusieurs vérifications dans les conditions. Pour ce faire on a des opérateurs logique``ET`` & ``OU``. Imaginons un programme qui vérifie si une personne est élligible pour faire sa rentrée à BeCode. On doit vérifier deux choses, la personne doit être majeur et doit posséder 25 badges.
 
 ````
 \\ Module principal
@@ -132,9 +132,28 @@ FIN
 ````
 </details>   
   &nbsp;  
+
+2. Adapte le code ci-dessous de manière à ce que l'utilisateur sache pourquoi il ne peut pas faire la formation à Becode. S'il n'a pas l'âge requis, un message devra s'afficher avec le nombre d'année avant qu'il ne puisse faire sa rentré. Donc si l'utilisateur a 17 ans, le message devrait être "Il te manque 1 an pour partciper à la formation".
+Même chose pour les badges.
+
+````
+\\ Module principal
+DÉBUT
+    ECRIRE "Quel est ton age"   
+    LIRE age
+    ECRIRE "Combien de badge as-tu ?"
+    LIRE badge
+
+    SI age >= 18 OU badge >= 25 ALORS
+        ECRIRE "Bienvenue chez BeCode"
+    SINON 
+        ECRIRE "Tu n'es pas elligible pour Becode"
+    FINSI
+FIN
+````
   
 
-2. Ecrire l'algorithme décrivant un programme permettant à une hotesse de calculer le prix d'une place en fonction de l'âge du passager. Les enfants de moins de deux ans ne paient pas, ceux qui ont moins de 10 ans paient moitié prix et les personnes de moins de 27 ans et celles de plus de 70 ans ont une réduction de 10%. L'utilisateur doit saisir le prix de base du billet et l'âge de passager. Le programme affiche le résultat.
+3. Ecrire l'algorithme décrivant un programme permettant à une hotesse de calculer le prix d'une place en fonction de l'âge du passager. Les enfants de moins de deux ans ne paient pas, ceux qui ont moins de 10 ans paient moitié prix et les personnes de moins de 27 ans et celles de plus de 70 ans ont une réduction de 10%. L'utilisateur doit saisir le prix de base du billet et l'âge de passager. Le programme affiche le résultat.
 
 <details>
    <summary>Solution</summary>
@@ -161,7 +180,6 @@ FIN
 ````
 </details>
 
-3. 
 
 
 
