@@ -10,15 +10,17 @@
 * Comprendre l'algorithmie
 * Premier pas dans le code.
 
+## Index
+
 1. Introduction ←
    * [L'algo, c'est quoi](#lalgo-cest-quoi-)
    * [Et le pseudo code, c'est quoi ?](#et-le-pseudo-code-cest-quoi-)
    * [Installation](#windows)
-1. [Les variables](code/variables.md)
-1. [Les conditions](code/conditions.md)
-1. [Les boucles](code/whileAndfor.md)
-1. [Les tableaux](code/array.md)
-1. [Les fonctions](code/function.md)
+2. [Les variables](code/variables.md)
+3. [Les conditions](code/conditions.md)
+4. [Les boucles](code/whileAndfor.md)
+5. [Les tableaux](code/array.md)
+6. [Les fonctions](code/function.md)
 
    
 
