@@ -72,6 +72,46 @@ Pour comparer 2 valeurs, nous aurons besoin des *opérateurs de comparaison*.
 | != | opérateur de différence | A != B | Vérifie que la variable A est différente que la variable B
 
 
+## Opérateur Logique 
+On a la possibilité de faire plusieurs cérifictaions dans les conditions. Pour ce faire on a des opérateurs logiques ``ET`` & ``OU``. Imaginons un programme qui vérifie si une personne est élligible pour faire sa rentrée à BeCode. On doit vérifier deux choses, la personne doit être majeur et doit posséder 25 badges.
+
+````
+\\ Module principal
+DÉBUT
+    ECRIRE "Quel est ton age"   
+    LIRE age
+    ECRIRE "Combien de badge as-tu ?"
+    LIRE badge
+
+    SI age >= 18 ET badge >= 25 ALORS
+        ECRIRE "Bienvenue chez BeCode"
+    SINON 
+        ECRIRE "Tu n'es pas elligible pour Becode"
+    FINSI
+FIN
+````
+
+Dans ce cas ci, l'utilisateur doit remplir **les deux** conditions, si ce n'est pas le cas, la console affichera toujours "Tu n'es pas élligible ..."
+
+Si maintenant nous utilisons l'operateur ``OU`` dans le test,
+````
+\\ Module principal
+DÉBUT
+    ECRIRE "Quel est ton age"   
+    LIRE age
+    ECRIRE "Combien de badge as-tu ?"
+    LIRE badge
+
+    SI age >= 18 OU badge >= 25 ALORS
+        ECRIRE "Bienvenue chez BeCode"
+    SINON 
+        ECRIRE "Tu n'es pas elligible pour Becode"
+    FINSI
+FIN
+````
+L'utilisateur ne doit remplir qu'une des deux contions. Donc la phrase "Bienvenue chez BeCode" s'affichera si l'utilisateur a plus de 18 OU s'il a 25 badges. Alors ce n'est pas le comportement qu'on souhaite mais c'est surtout pour illustrer la différence entre ET & OU.
+
+
 ## Exercices : 
 1. Ecrire un algorithme qui demande à l'utilisateur d'entrer son âge. Si l'utilisateur à moins de 18 ans, le programme indiquera : *Tu es trop jeune pour faire la formation BeCode*. Par contre si l'utlisateur à plus de 18  ans, la phrase devra indiquer *Tu peux participer à la formation*.
 
@@ -94,7 +134,7 @@ FIN
   &nbsp;  
   
 
-1. Ecrire l'algorithme décrivant un programme permettant à une hotesse de calculer le prix d'une place en fonction de l'âge du passager. Les enfants de moins de deux ans ne paient pas, ceux qui ont moins de 10 ans paient moitié prix et les personnes de moins de 27 ans et celles de plus de 70 ans ont une réduction de 10%. L'utilisateur doit saisir le prix de base du billet et l'âge de passager. Le programme affiche le résultat.
+2. Ecrire l'algorithme décrivant un programme permettant à une hotesse de calculer le prix d'une place en fonction de l'âge du passager. Les enfants de moins de deux ans ne paient pas, ceux qui ont moins de 10 ans paient moitié prix et les personnes de moins de 27 ans et celles de plus de 70 ans ont une réduction de 10%. L'utilisateur doit saisir le prix de base du billet et l'âge de passager. Le programme affiche le résultat.
 
 <details>
    <summary>Solution</summary>
@@ -120,6 +160,8 @@ DEBUT
 FIN 
 ````
 </details>
+
+3. 
 
 
 
