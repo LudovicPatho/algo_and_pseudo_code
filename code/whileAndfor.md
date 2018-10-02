@@ -32,7 +32,7 @@ FIN
 ````
 Dans cet exemple, **tant que** la variable ``nombre`` est plus petite ou égal à 10, l'algorithme écrit le nombre et additionne la variable ``nombre`` de 1. (On dit que l'on incrémente de 1)
  
-**/!\ Attention aux boucles infinies.**  
+### /!\ Attention aux boucles infinies.
 
 Attention, si on oublie d'incrémenter la boucle avec le + 1, on va créer une boucle infinie. Comme la variable nombre sera tooujours égale à 0, on rentre toujours dans la condition et elle s'exécutera de manière infinie. Dans des conditions réelles, cela peut entraîner un crash de l'ordinateur. 
 
