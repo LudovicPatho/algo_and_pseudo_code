@@ -25,7 +25,7 @@ DÉBUT
     ...
 FIN
 ````
-On pourrait faire de copier-coller mais c'est pas propre et un bon développeur ne se **répete jamais**
+On pourrait faire des copier-coller mais c'est pas propre et un bon développeur ne se **répete jamais**. Soyez et pensez [D.R.Y](https://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas) !
 
 ![Don't repeat your self](https://www.ontestautomation.com/wp-content/uploads/2016/05/keep-calm-and-don-t-repeat-yourself.png)
 
