@@ -1,9 +1,9 @@
-# Les boucles ``while`` ou ``tant que``
+# Les boucles 
 Nous allons maintenant aborder un élément plus complexe et  plus obscure que les conditions, j'ai nommé : les boucles !
 
 Les boucles sont un élément essentiel dans la programmation. Elles permettent de répeter des instructions un certain nombre de fois. Il exite plusieurs type de boucle, nous allons en voir 2 pour commencer.
 
-## TANTQUE / FINTANTQUE 
+## TANTQUE / FINTANTQUE (``while``)
 Les boucles **TANTQUE** se répetent **tant que** la condition est remplie. Si la condition n'est plus remplie, alors la boucle s'arrêtte. 
 
 ![boucle tant que ](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Cf-while-fr.svg/145px-Cf-while-fr.svg.png)
@@ -25,7 +25,7 @@ Dans cet exemple, **tant que** la variable ``nombre`` est plus petite ou égal �
  
 **/!\ Attention aux boucles infinies.**  
 
-Attention, si tu oublies d'incrémenter la boucle avec le + 1, tu vas créer une boucle infinie. Comme la variable nombre sera tooujours égale à 0, on rentre toujours dans la condition et elle s'exécutera de manière infinie. Dans des conditions réelles, cela peut entrainer un crash de l'ordinateur. 
+Attention, si on oublie d'incrémenter la boucle avec le + 1, on va créer une boucle infinie. Comme la variable nombre sera tooujours égale à 0, on rentre toujours dans la condition et elle s'exécutera de manière infinie. Dans des conditions réelles, cela peut entraîner un crash de l'ordinateur. 
 
 ![boucle infinie](http://aubrylia.a.u.pic.centerblog.net/gif-rite-infinie.gif)
 
@@ -34,7 +34,6 @@ Attention, si tu oublies d'incrémenter la boucle avec le + 1, tu vas créer une
 1. Ecris une algorithme qui demande à l'utilisateur d'entrer un nombre. Ensuite fais en sorte que ton programme affiche tous les chiffres jusqu'à 0. 
 Exemple, si l'utilisateur entre le chiffre 3, alors ton programme affichera quelque chose comme ceci.
 
-
 ````
 3
 2
@@ -42,8 +41,42 @@ Exemple, si l'utilisateur entre le chiffre 3, alors ton programme affichera quel
 0
 ````
 
+2. Le juste prix. Créer une variable qui va contenir le chiffre à trouver. Ensuite créer un algorithme qui demandera à l'utilisateur de trouver ce prix. Si l'utilisateur introduit un nombre trop élevé, il aura la phrase : "C'est moins". Si il introduit un nombre trop bas, il aura la phrase : "C'est plus". Si l'utilisateur trouve le bon nombre il aura la phrase : "Bravo, tu as gagné".   
 
-2. Le juste prix. Créer une variable qui va contenir le chiffre à trouver. Ensuite créer un algorithme qui demandera à l'utilisateur de trouver ce prix. Si l'utilisateur introduit un nombre trop élevé, il aura la phrase : "C'est moins". Si il introduit un nombre trop bas, il aura la phrase : "C'est plus". Si l'utilisateur trouve le bon nombre il aura la phrase : "Bravo, tu as gagné". 
+
+## Les boucles POUR (for)
+Avec les boucles ``POUR`` on a plus besoin d'incrementer en faisant le + 1. Elle évite donc les boucles infinies de part sa structure. Elle peut aussi sembler plus lisible pour certain. Si on reprend l'exemple de tout à l'heure : 
+
+````
+\\ Module principal
+DÉBUT
+nombre = 0
+TANTQUE nombre <= 10 FAIRE
+    ECRIRE nombre
+    nombre = nombre + 1
+FINTANTQUE
+
+FIN
+````
+
+Et que l'on traduit cela avec la boucle ``POUR``, ça ressemblerait à ceci : 
+
+````
+\\ Module principal
+DÉBUT
+POUR nombre = 0  JUSQU'À 10 FAIRE
+    ECRIRE nombre
+FINPOUR 
+FIN 
+```` 
+
+Vous voyez comme le code est simplifié ? Il y a moins de code et on se préoccupe pas de l'incrémentation. 
+
+## Exercice 
+
+Refait les deux exercices précedent mais cette fois en utilisant la boucle ``POUR``.
 
 
-3. 
+
+
+
