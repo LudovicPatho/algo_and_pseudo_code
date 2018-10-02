@@ -26,9 +26,12 @@ Dans cet exemple, **tant que** la variable ``nombre`` est plus petite ou égal �
 /!\ Attention aux boucles infinies.
 Attention, si tu oublies d'incrémenter la boucle avec le + 1, tu vas créer une boucle infinie. Comme la variable nombre sera tooujours égale à 0, on rentre toujours dans la condition et elle s'exécutera de manière infinie. Dans des conditions réelles, cela peut entrainer un crash de l'ordinateur. 
 
+![boucle infinie](http://aubrylia.a.u.pic.centerblog.net/gif-rite-infinie.gif)
+
+
 ## Execercice
 1. Ecris une algorithme qui demande à l'utilisateur d'entrer un nombre. Ensuite fais en sorte que ton programme affiche tous les chiffres jusqu'à 0. 
-Exemple, si l'utilisateur entre le chiffre 3, alors ton programme affichera 
+Exemple, si l'utilisateur entre le chiffre 3, alors ton programme affichera quelque chose comme ceci.
 
 
 ````
