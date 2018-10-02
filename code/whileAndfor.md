@@ -10,10 +10,27 @@
 
 Nous allons maintenant aborder un élément plus complexe et  plus obscure que les conditions, j'ai nommé : les boucles !
 
-Les boucles sont un élément essentiel dans la programmation. Elles permettent de répeter des instructions un certain nombre de fois. Il exite plusieurs type de boucle, nous allons en voir 2 pour commencer.
+Les boucles sont un élément essentiel dans la programmation. Elles permettent de répeter des instructions un certain nombre de fois. Elles permettent aussi d'éviter la répétition. Imaginons que vous vouliez afficher les chiffres de 1 à 10. Sans les boucles, on devrait écrire quelque comme ceci : 
+
+
+````
+\\ Module principal
+DÉBUT
+    ECRIRE 1
+    ECRIRE 2
+    ECRIRE 3
+    ECRIRE 4
+    ECRIRE 5
+    ECRIRE 6
+    ...
+FIN
+````
+On pourrait faire de copier-coller mais c'est pas propre et un bon développeur ne se **répete jamais**
+
+![Don't repeat your self](https://www.ontestautomation.com/wp-content/uploads/2016/05/keep-calm-and-don-t-repeat-yourself.png)
 
 ## TANTQUE / FINTANTQUE (``while``)
-Les boucles **TANTQUE** se répetent **tant que** la condition est remplie. Si la condition n'est plus remplie, alors la boucle s'arrêtte. 
+Les boucles **TANTQUE** se répetent **tant que** la condition est remplie. Si la condition n'est plus remplie, alors la boucle s'arrête. 
 
 ![boucle tant que ](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Cf-while-fr.svg/145px-Cf-while-fr.svg.png)
 
