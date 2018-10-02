@@ -72,9 +72,10 @@ FIN
 
 Vous voyez comme le code est simplifié ? Il y a moins de code et on se préoccupe pas de l'incrémentation. 
 
-## Exercice 
+## Les différences entre ``POUR`` et ``TANTQUE``
 
-Refait les deux exercices précedent mais cette fois en utilisant la boucle ``POUR``.
+Avec les boucles ``TANTQUE``, on ne connaît pas forcemment le nombre d'itération qu'elle effectuera. Si on reprend l'exercice du juste prix, la boucle continuera de s'executer tant que la bonne  réponse à été. On ne sait donc pas combien de fois elle va s'executer. Il serait impossible de faire cet exercice avec la boucle ``POUR``
+
 
 
 
