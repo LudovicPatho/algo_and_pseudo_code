@@ -1,4 +1,4 @@
-# Algorithme et pseudo code.  
+# Algorithme et pseudo-code.  
 
 * Repository: becode-animation-css
 * Durée: 1 jour
@@ -45,7 +45,7 @@ En résumé, un algorithme est donc un ensemble d'instructions **simples** qui p
 On retourne sur wikipédia :
 > En programmation, le pseudo-code, également appelé LDA (pour Langage de Description d'Algorithmes) est une façon de décrire un algorithme en langage presque naturel, sans référence à un langage de programmation en particulier.
 
-Donc on va utiliser le pseudo-code qui à l'avantage de se concentrer uniquement sur la logique sans se soucier de la syntaxe, qui est spécifique à chaque technologie. Cette logique sera applicable à n'importe quel langage informatique. Nous allons utiliser le gratuiciel [Larp](http://larp.marcolavoie.ca/fr/download/download.htm) pour la mettre en oeuvre et pouvoir l'executer. 
+Donc on va utiliser le pseudo-code qui à l'avantage de se concentrer uniquement sur la logique sans se soucier de la syntaxe, qui est spécifique à chaque technologie. Cette logique sera applicable à n'importe quel langage informatique. Nous allons utiliser le gratuiciel [Larp](http://larp.marcolavoie.ca/fr/download/download.htm) pour la mettre en oeuvre et pouvoir l'executer. Notez que l'on fait même abstraction de l'anglais pour se concentrer uniquement sur la logique
 
 ### Windows
 Téléchargez simplement [Larp](http://larp.marcolavoie.ca/fr/download/download.htm) et installez le, vous n'avez rien à faire d'autres.

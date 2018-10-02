@@ -72,7 +72,7 @@ Pour comparer 2 valeurs, nous aurons besoin des *opérateurs de comparaison*.
 | != | opérateur de différence | A != B | Vérifie que la variable A est différente que la variable B
 
 
-## Opérateur Logique 
+## Les opérateurs logiques 
 On a la possibilité de faire plusieurs vérifications dans les conditions. Pour ce faire on a des opérateurs logique``ET`` & ``OU``. Imaginons un programme qui vérifie si une personne est élligible pour faire sa rentrée à BeCode. On doit vérifier deux choses, la personne doit être majeur et doit posséder 25 badges.
 
 ````
@@ -82,7 +82,6 @@ DÉBUT
     LIRE age
     ECRIRE "Combien de badge as-tu ?"
     LIRE badge
-
     SI age >= 18 ET badge >= 25 ALORS
         ECRIRE "Bienvenue chez BeCode"
     SINON 
@@ -113,6 +112,7 @@ L'utilisateur ne doit remplir qu'une des deux contions. Donc la phrase "Bienvenu
 
 
 ## Exercices : 
+
 1. Ecrire un algorithme qui demande à l'utilisateur d'entrer son âge. Si l'utilisateur à moins de 18 ans, le programme indiquera : *Tu es trop jeune pour faire la formation BeCode*. Par contre si l'utlisateur à plus de 18  ans, la phrase devra indiquer *Tu peux participer à la formation*.
 
 <details>
@@ -151,7 +151,33 @@ DÉBUT
     FINSI
 FIN
 ````
-  
+
+<details>
+    <summary>Solution</summary>
+
+````
+\\ Module principal
+DÉBUT
+    ECRIRE "Quel est ton age"   
+    LIRE age
+    ECRIRE "Combien de badge as-tu ?"
+    LIRE badge
+
+    SI age >= 18 ET badge >= 25 ALORS
+        ECRIRE "Bienvenue chez BeCode"
+    FINSI
+    SI age < 18 ALORS 
+        ECRIRE "Il te manque ", (18-age), " ans pour participer à la formation"
+    FINSI
+    SI badge < 25 ALORS 
+        ECRIRE "Il te manque ",  25 - badge, " badge(s) pour participer à la formation"
+    FINSI
+FIN
+````
+
+</details>
+
+  &nbsp;  
 
 3. Ecrire l'algorithme décrivant un programme permettant à une hotesse de calculer le prix d'une place en fonction de l'âge du passager. Les enfants de moins de deux ans ne paient pas, ceux qui ont moins de 10 ans paient moitié prix et les personnes de moins de 27 ans et celles de plus de 70 ans ont une réduction de 10%. L'utilisateur doit saisir le prix de base du billet et l'âge de passager. Le programme affiche le résultat.
 
