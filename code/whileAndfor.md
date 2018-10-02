@@ -44,9 +44,9 @@ Attention, si on oublie d'incrémenter la boucle avec le + 1, on va créer une b
 Exemple, si l'utilisateur entre le chiffre 3, alors ton programme affichera quelque chose comme ceci.
 
 ``
-3
-2
-1
+3,
+2,
+1,
 0
 ``
 
