@@ -30,7 +30,7 @@ Attention, si tu oublies d'incrémenter la boucle avec le + 1, tu vas créer une
 ![boucle infinie](http://aubrylia.a.u.pic.centerblog.net/gif-rite-infinie.gif)
 
 
-## Execercice
+## Exercice
 1. Ecris une algorithme qui demande à l'utilisateur d'entrer un nombre. Ensuite fais en sorte que ton programme affiche tous les chiffres jusqu'à 0. 
 Exemple, si l'utilisateur entre le chiffre 3, alors ton programme affichera quelque chose comme ceci.
 
