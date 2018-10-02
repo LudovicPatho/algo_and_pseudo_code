@@ -11,3 +11,9 @@ Les boucles **TANTQUE** se répetent **tant que** la condition est remplie. Si l
 
  
 /!\ Attention aux boucles infinies. 
+
+## Execercice
+1. Le juste prix. Créer une variable qui va contenir le chiffre à trouver. Ensuite créer un algorithme qui demandera à l'utilisateur de trouver ce prix. Si l'utilisateur introduit un nombre trop élevé, il aura la phrase : "C'est moins". Si il introduit un nombre trop bas, il aura la phrase : "C'est plus". Si l'utilisateur trouve le bon nombre il aura la phrase : "Bravo, tu as gagné". 
+
+
+2. 
