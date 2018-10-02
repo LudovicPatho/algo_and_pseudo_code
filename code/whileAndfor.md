@@ -1,4 +1,11 @@
 # Les boucles 
+1. [Introduction](../README.md)
+1. [Les variables](./variables.md)
+1. [Les conditions](./conditions.md)
+1. Les boucles ←
+1. [Les tableaux](./array.md)
+1. [Les fonctions](./function.md)
+
 Nous allons maintenant aborder un élément plus complexe et  plus obscure que les conditions, j'ai nommé : les boucles !
 
 Les boucles sont un élément essentiel dans la programmation. Elles permettent de répeter des instructions un certain nombre de fois. Il exite plusieurs type de boucle, nous allons en voir 2 pour commencer.
@@ -74,7 +81,9 @@ Vous voyez comme le code est simplifié ? Il y a moins de code et on se préoccu
 
 ## Les différences entre ``POUR`` et ``TANTQUE``
 
-Avec les boucles ``TANTQUE``, on ne connaît pas forcemment le nombre d'itération qu'elle effectuera. Si on reprend l'exercice du juste prix, la boucle continuera de s'executer tant que la bonne  réponse à été. On ne sait donc pas combien de fois elle va s'executer. Il serait impossible de faire cet exercice avec la boucle ``POUR``
+Avec les boucles ``TANTQUE``, on ne connaît pas forcemment le nombre d'itération qu'elle effectuera. Si on reprend l'exercice du juste prix, la boucle continue de s'executer tant que la bonne  réponse n'a pas été donnée. On ne sait donc pas combien de fois elle va s'executer. Il serait impossible de faire cet exercice avec la boucle ``POUR``
+
+Avec les boucles ``POUR``, on connaît forcement le nombre d'itération. 
 
 
 
