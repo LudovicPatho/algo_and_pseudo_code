@@ -43,12 +43,12 @@ Attention, si on oublie d'incrémenter la boucle avec le + 1, on va créer une b
 1. Ecris une algorithme qui demande à l'utilisateur d'entrer un nombre. Ensuite fais en sorte que ton programme affiche tous les chiffres jusqu'à 0. 
 Exemple, si l'utilisateur entre le chiffre 3, alors ton programme affichera quelque chose comme ceci.
 
-````
+``
 3
 2
 1
 0
-````
+``
 
 2. Le juste prix. Créer une variable qui va contenir le chiffre à trouver. Ensuite créer un algorithme qui demandera à l'utilisateur de trouver ce prix. Si l'utilisateur introduit un nombre trop élevé, il aura la phrase : "C'est moins". Si il introduit un nombre trop bas, il aura la phrase : "C'est plus". Si l'utilisateur trouve le bon nombre il aura la phrase : "Bravo, tu as gagné".   
 
