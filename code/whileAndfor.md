@@ -44,10 +44,10 @@ TANTQUE nombre <= 10 FAIRE
     ECRIRE nombre
     nombre = nombre + 1
 FINTANTQUE
-
+ECRIRE "Fin de la boucle"
 FIN
 ````
-Dans cet exemple, **tant que** la variable ``nombre`` est plus petite ou égal à 10, l'algorithme écrit le nombre et additionne la variable ``nombre`` de 1. (On dit que l'on incrémente de 1)
+Dans cet exemple, **tant que** la variable ``nombre`` est plus petite ou égal à 10, l'algorithme écrit le nombre et additionne la variable ``nombre`` de 1. (On dit que l'on incrémente de 1) Dès que la variable ``nombre`` sera égale à 10, l'ordinateur passera à la ligne suivante, "Fin de la boucle" dans ce cas-ci.
  
 ### /!\ Attention aux boucles infinies.
 
@@ -56,7 +56,7 @@ Attention, si on oublie d'incrémenter la boucle avec le + 1, on va créer une b
 ![boucle infinie](http://aubrylia.a.u.pic.centerblog.net/gif-rite-infinie.gif)
 
 
-## Exercice
+## Exercices
 1. Ecris une algorithme qui demande à l'utilisateur d'entrer un nombre. Ensuite fais en sorte que ton programme affiche tous les chiffres jusqu'à 0. 
 Exemple, si l'utilisateur entre le chiffre 3, alors ton programme affichera quelque chose comme ceci : ``3,2,1,0``
 
