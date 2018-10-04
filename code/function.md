@@ -95,6 +95,44 @@ Pour commencer, allez dans la fenêtre de gauche et faites un click droit sur ``
 
 ![pseudocode function create](./creerfunction.gif)
 
+Dans le nouveau module, on va lui indiquer que l'on peut recevoir 2 arguments. 
+````
+\\ Module auxiliaire ADDITION
+ENTRER  a, b
+````
+Cela veut dire que l'on pourra passer deux arguments en écrivant  ``ADDITION(a,b)``.
+Ensuite nous devons lui dire que la variable ``somme`` sera la valeur de a + b. 
+
+````
+\\ Module auxiliaire ADDITION
+ENTRER  a, b
+    somme = a + b
+````
+
+Enfin, nous devons définir ce qui sera retourné par la fonction, dans ce cas ci la somme de l'adition donc. 
+
+````
+\\ Module auxiliaire ADDITION
+ENTRER  a, b
+    somme = a + b
+RETOURNER somme
+````
+
+Vous pouvez maitenant retourner dans le module principal.
+Appelez votre fonction en écrivant ``ADDITION(4,8)``
+(Ou n'importe quel nombre) 
+
+````
+\\ Module principal
+DÉBUT
+   ECRIRE ADDITION(5,6)
+FIN 
+```` 
+Le résultat sera 11. 
+Eh bien bravo, tu viens de créer ta première fonction. 
+      
+
+
 
 
 
