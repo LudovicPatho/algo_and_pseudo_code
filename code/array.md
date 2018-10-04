@@ -55,13 +55,13 @@ Ici c'est la variable ``nombre`` qui est l'index du tableau ``eleve``.
 
 
 ## Tableaux multi-dimensionnels
-On peut également imbriqué des tableaux. Imaginons que nous souhaitons stocker dans un tableau tous les apprenants de becode par promo. Donc un tableau = une promo. Pour ce faire on créer un tableau apprenant
+On peut également imbriquer des tableaux. Imaginons que nous souhaitons stocker dans un tableau tous les apprenants de becode par promo. Donc un tableau = une promo. Pour ce faire on va créer un tableau apprenant
 
 ````
 apprenants = []
 ````
 
-Dans ce tableaunou allons y stocker un autre tableau avec les apprenants de la promo turing. 
+Dans ce tableau nous allons y stocker un autre tableau avec les apprenants de la promo turing. 
 
 ````
 apprenants = [["David", "Justine", "Valentin","Axel"]]
@@ -72,24 +72,24 @@ Ensuite imaginons que nous souhaitons rajouter les apprenants de Lovelace.
 ````
 apprenants = [["David", "Justine", "Valentin","Axel"], ["Julie", "Stéphane", "Mostapha", "Claudiu", "Son"]]
 ````
-Comme vous pouvez le voir, on rajoute un tableau séparé par une virgule. Nous avons donc un tableau qui contient lui même deux tableux.
+Comme vous pouvez le voir, on rajoute un tableau séparé par une virgule. Nous avons donc un tableau qui contient lui même deux tableaux.
 
 Si on veut récupérer la première valeur du premier tableau nous devons procéder comme ceci : 
 
 ````
 ECRIRE apprenants[1][1]
 ````
-Ce qui nous donnera : "David". Si on veut récupérer le premier élément du deuxième tableau. On netre donc dans le premier tableau et on choisit le premier élément.
+Ce qui nous donnera : "David". Si on veut récupérer le premier élément du deuxième tableau. On entre donc dans le premier tableau et on choisit le premier élément.
 
 ````
 ECRIRE apprenants[2][1]
 ````
 
-Pour parcourir l'ensemble de ces tableaux, Nous allons faire une boucle dans une boucle... Vous commencez à avoir mal de tête ? C'est normal, ne vous inquiétez pas mais c'est pas si compliqué que ça en à l'air.
+Pour parcourir l'ensemble de ces tableaux, nous allons faire une boucle dans une boucle... Vous commencez à avoir mal de tête ? C'est normal, ne vous inquiétez pas mais c'est pas aussi compliqué que ça en à l'air.
 
 
 
-On créer donc une première boucle qui va parcourir le 1er tableau. Dans cette même boucle on imbrique une seconde boucle qui va parcourir les deux autres tableaux... Vous suiviez ? 
+On crée donc une première boucle qui va parcourir le 1er tableau. Dans cette même boucle on imbrique une seconde boucle qui va parcourir les deux autres tableaux... Vous suivez ? 
 
 
 ![While nesting](https://media0.giphy.com/media/3oKGztUyVs2DTkhGUM/giphy.gif?cid=ecf05e475bb5e19d706464747717fdda)
@@ -108,8 +108,8 @@ DÉBUT
     FINPOUR
 FIN  
 ````
-La première boucle sera incrémenté 2 fois car il y a 2 tableaux.
-La seconde boucle sera incrémenté 5 fois car chaque tableau contienent 5 éléments. Bon allez c'est pas compliqué si ? 
+La première boucle sera incrémentée 2 fois car il y a 2 tableaux.
+La seconde boucle sera incrémentée 5 fois car chaque tableau contient 5 éléments. Bon allez c'est pas compliqué si ? 
 
 
 
@@ -120,4 +120,4 @@ La seconde boucle sera incrémenté 5 fois car chaque tableau contienent 5 élé
 2. Reprendre le tableau précédent et utiliser ce tableau ci-dessous. Cette fois faire en sorte d'afficher une competence par éléve. 
 ``competence = ["html", "css", "javascript", "php", "Java"]``
 3. Créer un algorithme qui affiche le nombre le plus grand de ces tableaux. ``nombres = [[18,55], [29,13], [-2,15],[66,44]]``
-4. Reprendre ce tableau ``apprenants = [["David", "Justine", "Valentin","Axel", "Redouane"], ["Julie", "Stéphane", "Mostapha", "Claudiu", "Son"]]``. Faire en sorte que pour le premier tableau affiche "PRENOM est chez les turings". Le second tableau devra afficher "PRENOM est chez les lovelaces".
+4. Reprendre ce tableau ``apprenants = [["David", "Justine", "Valentin","Axel", "Redouane"], ["Julie", "Stéphane", "Mostapha", "Claudiu", "Son"]]``. Faire en sorte que le premier tableau affiche "PRENOM est chez les turings". Le second tableau devra afficher "PRENOM est chez les lovelaces".
