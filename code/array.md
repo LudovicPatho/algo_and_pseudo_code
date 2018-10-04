@@ -51,7 +51,7 @@ DÉBUT
     FINPOUR 
 FIN  
 ````
-Ici la variable ``nombre`` qui est l'index du tableau ``eleve``.
+Ici c'est la variable ``nombre`` qui est l'index du tableau ``eleve``.
 
 
 ## Tableaux multi-dimensionnels
