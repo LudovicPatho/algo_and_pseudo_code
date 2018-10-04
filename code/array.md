@@ -108,15 +108,16 @@ DÉBUT
     FINPOUR
 FIN  
 ````
-
+La première boucle sera incrémenté 2 fois car il y a 2 tableaux.
+La seconde boucle sera incrémenté 5 fois car chaque tableau contienent 5 éléments. Bon allez c'est pas compliqué si ? 
 
 
 
 
 ## Exercices 
 
-1. Créer un tableau qui contient 5 prénoms. Ensuite fais en sorte d'afficher cette phrase  : " LE_PRENOM est dans la classe turring"
-2. Reprends ton tableau précédent et utilise ce tableau ci-dessous. Cette fois fais en sorte d'affihcer une competence par éléve. 
+1. Créer un tableau qui contient 5 prénoms. Ensuite faire en sorte d'afficher cette phrase  : " LE_PRENOM est dans la classe turring"
+2. Reprendre le tableau précédent et utiliser ce tableau ci-dessous. Cette fois faire en sorte d'afficher une competence par éléve. 
 ``competence = ["html", "css", "javascript", "php", "Java"]``
-3. 
-
+3. Créer un algorithme qui affiche le nombre le plus grand de ces tableaux. ``nombres = [[18,55], [29,13], [-2,15],[66,44]]``
+4. Reprendre ce tableau ``apprenants = [["David", "Justine", "Valentin","Axel", "Redouane"], ["Julie", "Stéphane", "Mostapha", "Claudiu", "Son"]]``. Faire en sorte que pour le premier tableau affiche "PRENOM est chez les turings". Le second tableau devra afficher "PRENOM est chez les lovelaces".
