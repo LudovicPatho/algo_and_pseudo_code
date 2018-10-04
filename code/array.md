@@ -54,7 +54,31 @@ FIN
 Ici la variable ``nombre`` qui est l'index du tableau ``eleve``.
 
 
-## Tableau multi-dimensionnel
+## Tableaux multi-dimensionnels
+On peut également imbriqué des tableaux. Imaginons que nous souhaitons stocker dans un tableau tous les apprenants de becode par promo. Donc un tableau = une promo. Pour ce faire on créer un tableau apprenant
+
+````
+apprenants = []
+
+````
+
+Dans ce tableaunou allons y stocker un autre tableau avec les apprenants de la promo turing. 
+
+````
+apprenants = [["David", "Justine", "Valentin","Axel"]]
+````
+
+Ensuite imaginons que nous souhaitons rajouter les apprenants de Lovelace.
+
+````
+apprenants = [["David", "Justine", "Valentin","Axel"], ["Julie", "Stéphane", "Mostapha", "Claudiu", "Son"]]
+````
+Comme vous pouvez le voir, on rajoute un tableau séparé par une virgule. Nous avons donc un tableau qui contient lui même deux tableux.
+
+Pour parcourir l'ensemble de ces tableaux, Nous allons faire une boucle dans une boucle. Vous commencez à avoir mal de tête ? C'est normal, ne vous inquiétez pas. C'est pas si compliqué que ça en à l'air.
+
+![WHile nesting](https://tclhost.com/k18TD9r.gif)
+
 
 
 

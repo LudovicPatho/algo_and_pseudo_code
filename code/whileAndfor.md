@@ -53,7 +53,7 @@ Dans cet exemple, **tant que** la variable ``nombre`` est plus petite ou égal �
 
 Attention, si on oublie d'incrémenter la boucle avec le + 1, on va créer une boucle infinie. Comme la variable nombre sera tooujours égale à 0, on rentre toujours dans la condition et elle s'exécutera de manière infinie. Dans des conditions réelles, cela peut entraîner un crash de l'ordinateur. 
 
-![boucle infinie](http://aubrylia.a.u.pic.centerblog.net/gif-rite-infinie.gif)
+![boucle infinie](https://ljdchost.com/flK1FbB.gif)
 
 
 ## Exercices
