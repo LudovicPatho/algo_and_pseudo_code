@@ -87,8 +87,27 @@ ECRIRE apprenants[2][1]
 
 Pour parcourir l'ensemble de ces tableaux, Nous allons faire une boucle dans une boucle... Vous commencez à avoir mal de tête ? C'est normal, ne vous inquiétez pas mais c'est pas si compliqué que ça en à l'air.
 
-![While nesting](https://tclhost.com/k18TD9r.gif)
 
+
+On créer donc une première boucle qui va parcourir le 1er tableau. Dans cette même boucle on imbrique une seconde boucle qui va parcourir les deux autres tableaux... Vous suiviez ? 
+
+
+![While nesting](https://media0.giphy.com/media/3oKGztUyVs2DTkhGUM/giphy.gif?cid=ecf05e475bb5e19d706464747717fdda)
+
+Voici un exemple de code, essayez ! 
+
+````
+\\ Module principal
+DÉBUT
+    apprenants = [["David", "Justine", "Valentin","Axel", "Redouane"], ["Julie", "Stéphane", "Mostapha", "Claudiu", "Son"]]
+  
+    POUR i = 1 JUSQU'À 2 FAIRE
+        POUR y = 1 JUSQU'À 5 FAIRE
+            ECRIRE apprenants[i][y] 
+        FINPOUR 
+    FINPOUR
+FIN  
+````
 
 
 
