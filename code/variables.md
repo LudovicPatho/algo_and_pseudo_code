@@ -14,7 +14,7 @@
 
 Les variables permettent de stocker **temporairement**  une **valeur** dans la mémoire de l'ordinateur. On pourra ensuite s'en servir et l'utiliser au moment venu dans un programme. On peut comparer cela à une petite boite dans laquelle on pourrait stocker une information ou plusieurs informations. 
 
-Il existe plusieurs types de variables, certaines peuvent contenir des nombres entier, d'autres des nombres à virgule ou une chaîne de caractère. Un autre type qui est très pratique, ce sont les booléens. Une variable booléene ne peut contenir que 2 valeurs, soit ``False`` soit ``True``.  Il existe d'autres types, mais nous verrons cela plus tard.
+Il existe plusieurs types de variables, certaines peuvent contenir des nombres entier, d'autres des nombres à virgule ou une chaîne de caractères. Un autre type qui est très pratique, ce sont les booléens. Une variable booléene ne peut contenir que 2 valeurs, soit ``False`` soit ``True``.  Il existe d'autres types, mais nous verrons cela plus tard.
 
 ![Les variables](./boxes.png)
 
@@ -27,15 +27,15 @@ DÉBUT
 FIN
 ````
 
-Le nom de la variable est toujours A mais cette fois elle contient une chaîne de caractère aussi appellé String. Les chaînes de caractère commencent toujours par des guillemets.
+Le nom de la variable est toujours A mais cette fois elle contient une chaîne de caractères aussi appellé String. Les chaîne de caractères commencent toujours par des guillemets.
 ````
 \\ Module principal
 DÉBUT
-    A = "Ceci est une chaîne de caractère"
+    A = "Ceci est une chaîne de caractères"
 FIN
 ````
 
-**Attention donc, dans l'exemple suivant, il s'agit non pas d'un entier mais d'une chaîne de caractère.** 
+**Attention donc, dans l'exemple suivant, il s'agit non pas d'un entier mais d'une chaîne de caractères.** 
 ````
 \\ Module principal
 DÉBUT
@@ -55,7 +55,7 @@ DÉBUT
     A + B  // retournera 10
 FIN
 ````
-Par contre on ne peut pas additionner une chaîne de caractère et un nombre entier. Ceci provoquerait une erreur.
+Par contre on ne peut pas additionner une chaîne de caractères et un nombre entier. Ceci provoquerait une erreur.
 
 ````
 \\ Module principal
@@ -79,12 +79,12 @@ DÉBUT
 FIN
 ````
 
-L'addition retournera bien les deux chaînes de caractère collées. Pour mettre un espase entre les deux chaînes de caractère, on peut faire ceci : 
+L'addition retournera bien les deux chaîne de caractères collées. Pour mettre un espase entre les deux chaîne de caractères, on peut faire ceci : 
 
 ````
 \\ Module principal
 DÉBUT
-    B + " " + D \\ Retournera : "Coucou les pioupious de turing"
+    A + " " + B \\ Retournera : "Coucou les pioupious de turing"
 FIN
 ````
 Notez au passage qu'on appelle cela "concatener".
@@ -106,7 +106,7 @@ Appuyez sur ``F7`` ou sur le petit bouton ``Exécuter`` (petit bouton play) dans
 
 
 Avec la fonction ``LIRE``, on a la possibilité de capturer ce que l'utilisateur encode dans la console.   
-Essaiez ceci : 
+Essayez ceci : 
 
 ````
 \\ Module principal
@@ -114,10 +114,10 @@ DÉBUT
     A = "Quel est ton prénom ?"
 
     ÉCRIRE A
-    LIRE RESPONS
+    LIRE REPONSE
 
     B = "Bonjour "
-    ÉCRIRE B + RESPONS   
+    ÉCRIRE B + REPONSE   
 
 FIN
 ````
