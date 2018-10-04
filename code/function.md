@@ -84,10 +84,16 @@ FIN
 
 La fonction ``COMPTER()`` résoud ce problème. 
 
+Petite info supplémentaire, quand on mets la variable ``apprenants`` entre les paranthèses ``COMPTER(apprenants)``, on dit qu'on passe la variable en **argument** 
+
 
 ## Les fonctions personalisées 
 
+Il est possible de créer ses propres fonctions. Pour l'exemple on va créer une fonction ``ADDITION`` qui retrournera la somme des deux variables passé en argmuent. 
 
+Pour commencer, allez dans la fenêtre de gauche et faites un click droit sur ``PRINCIPAL``, ensuite sélectionner ``Nouveau module (pseudocode)``
+
+![pseudocode function create](./creerfunction.gif)
 
 
 
