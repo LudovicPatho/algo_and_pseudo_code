@@ -59,7 +59,6 @@ On peut également imbriqué des tableaux. Imaginons que nous souhaitons stocker
 
 ````
 apprenants = []
-
 ````
 
 Dans ce tableaunou allons y stocker un autre tableau avec les apprenants de la promo turing. 
@@ -75,9 +74,22 @@ apprenants = [["David", "Justine", "Valentin","Axel"], ["Julie", "Stéphane", "M
 ````
 Comme vous pouvez le voir, on rajoute un tableau séparé par une virgule. Nous avons donc un tableau qui contient lui même deux tableux.
 
-Pour parcourir l'ensemble de ces tableaux, Nous allons faire une boucle dans une boucle. Vous commencez à avoir mal de tête ? C'est normal, ne vous inquiétez pas. C'est pas si compliqué que ça en à l'air.
+Si on veut récupérer la première valeur du premier tableau nous devons procéder comme ceci : 
 
-![WHile nesting](https://tclhost.com/k18TD9r.gif)
+````
+ECRIRE apprenants[1][1]
+````
+Ce qui nous donnera : "David". Si on veut récupérer le premier élément du deuxième tableau. On netre donc dans le premier tableau et on choisit le premier élément.
+
+````
+ECRIRE apprenants[2][1]
+````
+
+Pour parcourir l'ensemble de ces tableaux, Nous allons faire une boucle dans une boucle... Vous commencez à avoir mal de tête ? C'est normal, ne vous inquiétez pas mais c'est pas si compliqué que ça en à l'air.
+
+![While nesting](https://tclhost.com/k18TD9r.gif)
+
+
 
 
 
