@@ -8,11 +8,11 @@
     
 # Les fonctions
 
-Les fonctions sont "bout de code" qui contiennent une suite d'instructions, boucles, conditions, etc ... On fait appel à ces fonctions en l'écrivant comme ceci ``FONCTION()``. 
+Les fonctions sont des "bout de code" qui contiennent une suite d'instructions, boucles, conditions, etc ... On fait appel à ces fonctions en l'écrivant comme ceci ``FONCTION()``. 
 
 ## Les fonctions prédéfinies
 
-Il existe déjà des fonctions toutes faites au sein de LARP. Une de ces fonctions auarit pu vous aider pour les exos précédents. Par exemple la function MAX() analyse le tableau et retourne le nombre le plus haut. 
+Il existe déjà des fonctions toutes faites au sein de LARP. Une de ces fonctions aurait pu vous aider pour les exos précédents. Par exemple la function MAX() analyse le tableau et retourne le nombre le plus haut. 
 
 ````
 DEBUT
@@ -29,7 +29,7 @@ FIN
 ```` 
 Retournera le nombre -5. 
 
-Une autre fonction qui ets bien pratique c'est la fonction ``COMPTER()`` . Cette fonction va retrourner le nombre d'élément que contient le tableau. Exemple. 
+Une autre fonction qui est bien pratique c'est la fonction ``COMPTER()`` . Cette fonction va retourner le nombre d'élément que contient le tableau. Exemple. 
 
 ````
 DEBUT
@@ -65,7 +65,7 @@ DÉBUT
     FINPOUR
 FIN  
 ````
-C'était pas très pratique, imaginez que un des deux tableaux ait 4 apprenants et l'autre 5 apprenants. Il y a aurait eu erreur de LARP car n'aurait pas trouvé le 5e apprenants.  
+C'était pas très pratique, imaginez qu'un des deux tableaux ait 4 apprenants et l'autre 5 apprenants. Il y aurait eu erreur de LARP car il n'aurait pas trouvé le 5e apprenant.  
 
 Essayez ce code, ici on a retiré "Julie" de la classe Lovelace. Vous allez avoir une erreur de compilation.
 
