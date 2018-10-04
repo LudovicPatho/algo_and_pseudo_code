@@ -10,6 +10,8 @@
 
 Les fonctions sont "bout de code" qui contiennent une suite d'instructions, boucles, conditions, etc ... On fait appel à ces fonctions en l'écrivant comme ceci ``FONCTION()``. 
 
+## Les fonctions prédéfinies
+
 Il existe déjà des fonctions toutes faites au sein de LARP. Une de ces fonctions auarit pu vous aider pour les exos précédents. Par exemple la function MAX() analyse le tableau et retourne le nombre le plus haut. 
 
 ````
@@ -81,6 +83,11 @@ FIN
 ````
 
 La fonction ``COMPTER()`` résoud ce problème. 
+
+
+## Les fonctions personalisées 
+
+
 
 
 
