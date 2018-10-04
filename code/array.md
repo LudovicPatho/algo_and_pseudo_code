@@ -51,7 +51,17 @@ DÉBUT
     FINPOUR 
 FIN  
 ````
+Ici la variable ``nombre`` qui est l'index du tableau ``eleve``.
+
+
+## Tableau multi-dimensionnel
+
+
 
 ## Exercices 
 
+1. Créer un tableau qui contient 5 prénoms. Ensuite fais en sorte d'afficher cette phrase  : " LE_PRENOM est dans la classe turring"
+2. Reprends ton tableau précédent et utilise ce tableau ci-dessous. Cette fois fais en sorte d'affihcer une competence par éléve. 
+``competence = ["html", "css", "javascript", "php", "Java"]``
+3. 
 
