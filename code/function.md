@@ -74,8 +74,8 @@ Essayez ce code, ici on a retiré "Julie" de la classe Lovelace. Vous allez avoi
 DÉBUT
     apprenants = [["David", "Justine", "Valentin","Axel", "Redouane"], ["Stéphane", "Mostapha", "Claudiu", "Son"]]
   
-    POUR i = 1 JUSQU'À **2** FAIRE
-        POUR y = 1 JUSQU'À **5** FAIRE
+    POUR i = 1 JUSQU'À 2 FAIRE
+        POUR y = 1 JUSQU'À 5 FAIRE
             ECRIRE apprenants[i][y] 
         FINPOUR 
     FINPOUR
@@ -128,9 +128,28 @@ DÉBUT
    ECRIRE ADDITION(5,6)
 FIN 
 ```` 
-Le résultat sera 11. 
+Le résultat sera 11.  
 Eh bien bravo, tu viens de créer ta première fonction. 
-      
+C'est parti pour les exercices. 
+
+## Exercices 
+1. Créer une fonction ``HELLO()`` qui prend comme argument (PRENOM) et qui retourne une phrase "Bonjour et bienvenue PRENOM"
+1. Créer une fonction qui prend 2 arguments (A et B). Cette fonction retrourne ``0`` si A est plus grand que B et ``1`` si B est plus grand que A
+1. Créer une fonction qui prend trois arguments(PRENOM, COMPETENCE, CLASSE). La variable COMPETENCE est un tableau qui reprend toutes les compétences de l'aprenant. Cette fonction retrournera la phrase suivante : "PRENOM est dans la classe CLASSE et connaît le COMPETENCE 1, COMPETENCE 2 etc". 
+
+1. **Le juste prix, level 2.** Dans le module principal, créer une variable PRIX et qui a une valeur aléatoire. (Il faut regarder dans les fonctions disponnible dans LARP.) Le programme demandera à l'utilisateur d'entrer le prix à deviner. Créer une fonction qui vérifie si le prix est correct ou non. Si le prix à deviner est inférieur au prix rentré, cela affichera "C'est moins". Si le prix est supérieur au prix encodé, "C'est plus". Si le prix est juste "Bravo, vous avez gagné". Attention, l'utilisateur est limité à 10 propositions. S'il dépasse les 10 propositions, cela affichera  "Vous avez perdu !"
+1. LEVEL JEDI ! Créer un algorithme qui fera un tri automatique de ce tableau   
+   ````tri = [454, 4, 59, 68, 1, 0, -1 , 56 , 7 , 9] ````  
+Utilisez TOUT ce que vous avez appris lors de ce petit briefing. 
+
+
+Fini ?
+Bravo, tu peux être fier de toi, tu viens d'apprendre la base de tous les languages de programmation. 
+
+
+
+
+
 
 
 
