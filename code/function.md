@@ -145,9 +145,10 @@ Utilisez TOUT ce que vous avez appris lors de ce petit briefing.
 
 Fini ?
 Bravo, tu peux être fier de toi, tu viens d'apprendre la base de tous les languages de programmation. 
+![Bravo](https://media1.giphy.com/media/oyZAfALXOHm6c6DHne/giphy.gif?cid=3640f6095bb7574a35337473325b5859)
 
 
-
+ 
 
 
 
