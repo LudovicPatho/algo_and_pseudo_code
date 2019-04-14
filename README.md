@@ -1,6 +1,6 @@
 # Algorithme et pseudo-code.  
 
-* Repository: becode-animation-css
+* Repository: algo_and_pseudo_code
 * Durée: 1 jour
 * À délivrer sur :
     * Github
